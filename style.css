@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+/*para seleccionar los id se utiliza el # seguido del nombre*/
+#titulo {
+    /* border: 10px red double; */
+    /* 
+        elementos de border
+        dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+    */
+    text-align: center ;
+    /* 
+    width: 1000px;
+    margin: 0 auto; */
+    background-color: #364552;
+    /* border-style: double   ;
+    border-color: red;
+    border-radius: 5px;
+    border-width: 7px; unidades relativas al valor del texto "em" "rem" */
+    font-size: 4rem;
+    padding: 3rem 2rem;
+    color: white
+    
+}
+
+/*para seleccionar las clases se utiliza el punto seguido del 
+nombre de la clase */
+.sub {
+    text-align: center ;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.texto {
+    text-align: justify ;
+    width: 1000px;
+    margin: 0 auto;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    font-size: 20px;
+    color:rgb(85, 80, 80)
+    
+}
+
+/* .link {
+    color:darkgoldenrod
+    
+}
+ */
+ .link:link{
+    color: blue;
+ }
+
+.link:visited {
+    color: rgb(226, 223, 43);
+}
+
+.link:hover{
+    color: chocolate;
+}
+
+.negritas {
+    text-decoration: underline;
+    color:black
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     /* text-align: justify ;  */
+}
+
+/* #position {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+} */
+
+
+/* selector universal es * (selecciona todo lo que hay en el documento de
+html), va aplicar las propiedades solamente si no han sido definidas por 
+otros selectores (id, class, etc)*/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
